@@ -1,4 +1,4 @@
 FROM openjdk
 ADD dockerdemo.jar /
-EXPOSE 8085:8085
+EXPOSE 8086:8086
 CMD ["java","-jar","dockerdemo.jar"]
